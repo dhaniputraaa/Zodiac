@@ -1,0 +1,107 @@
+* {
+   box-sizing: border-box;
+}
+ 
+body {
+   font-family: Arial;
+   padding: 10px;
+   background-image: url(uploads/bckgrnd.jpg);
+}
+ 
+/* Header/Blog Title */
+.header {
+   border-radius: 20px;
+   padding: 30px;
+   text-align: center;
+   background-image: url(../zodiac/uploads/bckgrnd_pantai.jpg);
+   background-position: 10%;
+}
+ 
+.header h1 {
+   font-size: 50px;
+}
+ 
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+   float: left;
+   width: 75%;
+}
+ 
+/* Right column */
+.rightcolumn {
+   float: right;
+   width: 25%;
+   background-image: url(uploads/bckgrnd.jpg);
+
+}
+ 
+/* Fake image */
+.fakeimg {
+   background-color: #aaa;
+   width: 100%;
+   padding: 20px;
+}
+ 
+/* Add a card effect for articles */
+.card {
+   text-align: center;
+   margin-right:5%;
+   margin-left: 5%;
+   float: left;
+   width: 15%;
+   position: relative;
+   padding-bottom: 50px;
+}
+
+.card2 {
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.card h2 {
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.card3 {
+   border-radius: 20px;
+   background-image: url(uploads/bckgrnd.jpg);
+   background-size: 160%;
+   padding: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+ 
+/* Footer */
+.footer {
+   padding: 20px;
+   text-align: center;
+   background: #ddd;
+   
+}
+ 
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+ 
+   .leftcolumn,
+   .rightcolumn {
+       width: 100%;
+       padding: 0;
+   }
+}
+@media screen and (max-width: 600px) {
+   .asd {
+     width: 100%;
+     display: block;
+     margin-bottom: 20px;
+   }
+ }
