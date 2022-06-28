@@ -5,6 +5,7 @@
 </head>
 
 <body>
+<a href="../zodiac/admin/login.php">Admin Login</a>
 <div class="header">
  <h1>ZODIAK</h1>
  <h2>Urutan Zodiak Berdasarkan Tanggal Lahir</h2>

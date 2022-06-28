@@ -16,4 +16,4 @@ include "header.php";
        <a href="index.php">Kembali</a>
    </div>
            
-<?php include "../footer.php" ?>
+<?php include "footer.php" ?>

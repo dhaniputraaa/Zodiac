@@ -6,7 +6,6 @@ $posts = $conn->query("SELECT * FROM Post");
  
 while($post = $posts->fetch_object()) {
  ?>
-   
    <div class="card">
    <div style="max-width: 900px;">
    <a href="post.php?id=<?php echo $post->id ?>"><h2><?php echo $post->title; ?></h2>
